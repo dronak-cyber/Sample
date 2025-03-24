@@ -1,0 +1,6 @@
+Commands to push file to GitHub.
+1. git add Sample_RFX1/
+2. git commit -m "Added Sample_RFX1 data"
+3. git remote set-url origin https://dronak-cyber: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@github.com/dronak-cyber/Sample.git
+4. git branch -M main
+5. git push --force origin main
