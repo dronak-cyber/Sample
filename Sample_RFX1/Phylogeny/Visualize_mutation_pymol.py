@@ -53,5 +53,5 @@ def visualize_mutations(pdb_file, mutation_list_file):
 if __name__ == "__main__":
     sys.path.append("/home/zero/pymol/bin")  # Add PyMOL binary path
     pdb_file = "TF_structure.pdb"  # Make sure this file exists
-    mutation_list_file = "mutation_sites.txt"  # Ensure this file is generated from Step 3
+    mutation_list_file = "mutation_list.txt"  # Ensure this file is generated from Step 3
     visualize_mutations(pdb_file, mutation_list_file)
